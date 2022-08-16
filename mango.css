@@ -363,13 +363,14 @@ span{
   justify-content: center;
   margin: 1rem;
 }
+
 .foot-1 ul li{
   margin-left: 1.22rem;
 }
 .socials{
   border-top: 1px solid #eee;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1rem;
 }
 .fab{
