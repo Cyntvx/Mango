@@ -347,12 +347,13 @@ span{
 }
 /* Footer */
 #foot{
-  margin-top: 3rem;
+  margin-bottom: -1.2rem;
   background: #e3eef746;
 }
 .bull{
   width: 30px;
   margin: auto;
+  margin-top: .3rem;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -361,7 +362,7 @@ span{
   display: flex;
   align-content: center;
   justify-content: center;
-  margin: 1rem;
+  margin: .5rem;
 }
 
 .foot-1 ul li{
@@ -371,7 +372,7 @@ span{
   border-top: 1px solid #eee;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: .6rem;
 }
 .fab{
   background: #eee;
@@ -394,7 +395,7 @@ main{
   /* grid-gap: 5rem; */
   /* margin: 3rem 4rem; */
   padding: 2rem 2rem ;
-  margin: 2rem ;
+  margin: 2.5rem ;
   margin-top: -.5rem;
 }
 .svg{
@@ -406,7 +407,7 @@ main{
   margin-right: -2rem;
 }
 .form div{
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.9rem;
   display: block;
   display: flex;
   flex-direction: column;
@@ -467,4 +468,10 @@ placeholder{
 }
 .last-thing > a:hover{
   opacity: 0.8;
+}
+.last-thing > p  > a:hover{
+  border-bottom: 1px solid #444;
+}
+.last-thing > p  > a{
+  margin-left: 1rem;
 }
