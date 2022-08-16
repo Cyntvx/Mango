@@ -378,3 +378,93 @@ span{
   padding: .3rem .3rem;
   border-radius: 50%;
 }
+/* Sign up */
+.bull{
+  width: 60px;
+}
+main{
+  display: flex;
+  /* justify-content: flex-start; */
+}
+
+#sign-up{
+  display: grid;
+  grid-template-areas: 'svg form';
+  height: 80vh;
+  /* grid-gap: 5rem; */
+  /* margin: 3rem 4rem; */
+  padding: 2rem 2rem ;
+  margin: 2rem ;
+  margin-top: -.5rem;
+}
+.svg{
+  min-width: 10rem;
+  
+}
+.form{
+  margin-left: 13rem;
+  margin-right: -2rem;
+}
+.form div{
+  margin-bottom: 1.7rem;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+.build{
+  color: #777;
+  margin: .5rem;
+}
+.both-sides{
+  display: flex;
+  grid-gap: 3rem;
+}
+.both-sides div{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  font-size: small;
+  color: #777;
+  margin
+}
+#sign-up input{
+  margin-top: ;
+  padding: .5rem .3rem;
+  border: none;
+  border-bottom: 1px #777 solid;
+  /* border-top: transparent;
+  border-right: transparent;
+  border-left: transparent; */
+
+}
+
+
+
+.both-sides label{
+  align-self: flex-start;
+}
+.both-sides input{
+  display: inline-block;
+}
+placeholder{
+  color: #777;
+  font-size: large;
+}
+.form .last-thing{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+}
+.last-thing > a {
+  background: rgba(0, 0, 255, 0.747);
+  color: #fff;
+  padding: .8rem;
+  margin-bottom: .3rem;
+  border-radius: 10px;
+}
+.last-thing > a:hover{
+  opacity: 0.8;
+}
